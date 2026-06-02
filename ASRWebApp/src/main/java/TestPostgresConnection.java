@@ -6,10 +6,10 @@ public class TestPostgresConnection {
     public static void main(String[] args) {
 
         String DB_URL =
-        	"jdbc:postgresql://ccds-sql-server-1.postgres.database.azure.com:5432/subtitle_db?sslmode=require";;
+        	"<your_db_connection_url>";;
 
         String DB_USER = "azureuser";
-        String DB_PASSWORD = "Az@12345";
+        String DB_PASSWORD = "<your_db_password>";
 
         try {
 
