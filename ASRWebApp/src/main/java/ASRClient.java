@@ -24,7 +24,7 @@ public class ASRClient extends HttpServlet {
 
         String boundary = "----ASRBoundary" + System.currentTimeMillis();
 
-        URL url = new URL("http://20.198.86.152:8000/transcribe");
+        URL url = new URL("http://<your_public_ip>:8000/transcribe");
 
         HttpURLConnection conn =
             (HttpURLConnection) url.openConnection();
@@ -202,7 +202,7 @@ public class ASRClient extends HttpServlet {
             throws Exception {
 
         String key =
-            "B3PmkhAVDYvudh0WcIlAMat9nlywxP9WDxIRlakgvnG0JuaeJ9T1JQQJ99CBACGhslBXJ3w3AAAbACOGbUba";
+            "<your_AI_translation_secret_key>";
 
         String region = "centralindia";
 
