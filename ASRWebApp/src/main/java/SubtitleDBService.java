@@ -5,13 +5,13 @@ import org.json.JSONObject;
 public class SubtitleDBService {
 
     private static final String DB_URL =
-    "jdbc:postgresql://ccds-sql-server-1.postgres.database.azure.com:5432/subtitle_db?sslmode=require";
+    "<your_db_connection_url>";
 
     private static final String DB_USER =
     "azureuser";
 
     private static final String DB_PASSWORD =
-    "Az@12345";
+    "<your_db_password>";
 
 
     /* Get database connection */
