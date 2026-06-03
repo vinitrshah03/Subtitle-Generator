@@ -2,7 +2,7 @@
 
 An end-to-end cloud-integrated subtitle generation system that automatically transcribes audio/video files, translates subtitles into English, generates downloadable SRT files, and stores subtitle metadata using Microsoft Azure cloud services.
 
-Built using **Java Servlets, JSP, FastAPI, Faster-Whisper, FFmpeg, Azure AI Translator, Azure PostgreSQL, and Azure Blob Storage**.
+Built using **Java Servlets, JSP, FastAPI, Faster-Whisper, FFmpeg, Azure AI Translator and Azure PostgreSQL**.
 
 ---
 
@@ -54,7 +54,6 @@ This project demonstrates the integration of:
 * Azure Virtual Machine
 * Azure AI Translator
 * Azure PostgreSQL Flexible Server
-* Azure Blob Storage
 
 ### 📊 Data Storage & Analytics
 
@@ -113,9 +112,7 @@ Java Web Application
 Azure PostgreSQL Database
  │
  └── Metadata Storage
- │
- ▼
-Azure Blob Storage
+
 ```
 
 ---
@@ -133,7 +130,6 @@ Azure Blob Storage
 9. Subtitles are displayed on the website.
 10. User downloads subtitles in `.srt` format.
 11. Metadata and subtitles are stored in Azure PostgreSQL.
-12. Subtitle files are stored in Azure Blob Storage.
 
 ---
 
@@ -180,7 +176,6 @@ Unlike traditional subtitle generators, this project:
 * Azure Virtual Machine
 * Azure AI Translator
 * Azure PostgreSQL Flexible Server
-* Azure Blob Storage
 
 ### Media Processing
 
